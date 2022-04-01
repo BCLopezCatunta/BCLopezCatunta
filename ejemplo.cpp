@@ -13,6 +13,8 @@ int main(){
     cin>>x;
     for(int i=1; i<=x; i++){
         cout<<"Ingrese una frase: ";
+        cout<<"Brayar Christian Lopez Catunta";
+        cout<<"publicado en 01 de Abril del 2022";
         fflush(stdin);
         getline(cin,s);
         cout<<"Has ingresado s= "<<s<<endl;
