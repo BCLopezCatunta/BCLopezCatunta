@@ -11,9 +11,12 @@ int main(){
     cout<<"Ahora leemos algo de la entrada estandar(teclado)"<<endl;
     cout<<"Ingrese un numero entero";
     cin>>x;
-    cout<<"Ingrese una frase: ";
-    fflush(stdin);
-    getline(cin,s);
-    cout<<"Has ingresado x "<<x<< "y s= "<<s<<endl; 
+    for(int i=1; i<=x; i++){
+        cout<<"Ingrese una frase: ";
+        fflush(stdin);
+        getline(cin,s);
+        cout<<"Has ingresado s= "<<s<<endl;
+    }
+     
 	return 0;
 }
